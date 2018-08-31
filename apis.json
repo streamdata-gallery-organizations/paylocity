@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Paylocity",
+	"description": "This is a repository of paylocity APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/paylocity.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://paylocity.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Paylocity",
+			"x-api-slug": "paylocity",
+			"description": "Paylocity has delivered industry-leading software and unmatched customer service since our inception. Our mission of elevating payroll and human resources across the backroom and into the boardroom speaks to just that. Today, Paylocity continues to develop innovative solutions that simplify the lives of payroll and HR professionals across the country. Through powerful analytics, robust reporting, intuitive usability, and modern functionality&mdash;our clients increase efficiency and manage workforces more effectively.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg",
+			"humanURL": "http://www.paylocity.com",
+			"baseURL": "https://api.paylocity.com//api",
+			"tags": "Paylocity",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/paylocity/master/_listings/paylocity/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Paylocity",
+	"include": [
+		{
+			"name": "Paylocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/paylocity/master/_listings/paylocity/apis.yaml"
+		}
+	]
+}
